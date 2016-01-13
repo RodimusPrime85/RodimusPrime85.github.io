@@ -38,8 +38,8 @@ h5 {
   height: 660px;
   margin-bottom: 1px;
   padding: 0px 0px 0px 4px;
-  background-image: url('../images/caption-hero-01-02.png');
-  background-position: 50% 50%;
+  background-image: url('../images/caption-hero-v2.png');
+  background-position: 118px 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -69,7 +69,7 @@ h5 {
 .brand {
   margin-top: 21px;
   margin-right: 11px;
-  margin-left: 5px;
+  margin-left: 4px;
   padding-right: 0px;
   padding-bottom: 38px;
 }
@@ -269,12 +269,12 @@ h5 {
 
 .zone-img {
   position: fixed;
-  left: 56px;
+  left: -1px;
   top: 12px;
   right: 4px;
-  margin-left: 62px;
+  margin-left: 136px;
   padding-top: 8px;
-  padding-left: 3px;
+  padding-left: 2px;
 }
 
 .zone-img.zone-logo {
@@ -284,8 +284,8 @@ h5 {
 
 .zone-img.zone-logo.hot {
   position: absolute;
-  left: 75px;
-  margin-left: 15px;
+  left: 10px;
+  margin-left: 90px;
   padding-right: 0px;
 }
 
@@ -296,19 +296,19 @@ h5 {
 
 .camp-img {
   position: fixed;
-  left: 99px;
+  left: 49px;
   top: 24px;
   right: 16px;
   margin-top: 37px;
   margin-right: 5px;
-  margin-left: -7px;
+  margin-left: 36px;
   padding-right: 0px;
   padding-left: 1px;
 }
 
 .camp-email {
   position: fixed;
-  left: 85px;
+  left: 21px;
   top: 13px;
   right: 177px;
   margin-top: 5px;
@@ -321,7 +321,12 @@ h5 {
 }
 
 .footer {
-  background-color: #4b0c0c;
+  background-color: transparent;
+  font-family: 'Droid Sans', sans-serif;
+  color: #ff4646;
+  font-size: 68px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .nav-right {
@@ -338,6 +343,30 @@ h5 {
 .link-block {
   margin-top: -46px;
   padding-top: 0px;
+}
+
+.hero-caption {
+  width: 402px;
+  height: 179px;
+  margin-top: 84px;
+  margin-right: 118px;
+  margin-left: -475px;
+  padding: 0px 22px 16px 14px;
+  border: 6px solid black;
+  background-color: white;
+  font-family: Universalfruitcake, Arial, sans-serif;
+  color: #4b0c0c;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.email-text {
+  margin-left: -66px;
+  background-color: #fff8c2;
+  font-family: Universalfruitcake, Arial, sans-serif;
+  color: #ff6161;
+  font-size: 56px;
+  text-decoration: none;
 }
 
 html.w-mod-js *[data-ix="display-none"] {
@@ -370,6 +399,7 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .brand {
     position: relative;
+    top: -10px;
     min-height: 4px;
     min-width: 62px;
     margin-top: -5px;
@@ -438,7 +468,7 @@ html.w-mod-js *[data-ix="display-none-4"] {
     right: 160px;
   }
   .nav-right {
-    top: 0px;
+    top: -7px;
     right: 0px;
     bottom: 0px;
     margin-top: -140px;
@@ -448,6 +478,15 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .contact-footer {
     font-size: 44px;
+  }
+  .hero-caption {
+    margin-top: 170px;
+    margin-bottom: 1px;
+    margin-left: -191px;
+  }
+  .email-text {
+    margin-left: 3px;
+    font-size: 35px;
   }
 }
 
@@ -462,9 +501,33 @@ html.w-mod-js *[data-ix="display-none-4"] {
     width: 572px;
   }
   .brand {
-    margin-top: -4px;
-    padding-top: 7px;
+    display: inline;
+    margin-top: 11px;
+    margin-left: 13px;
+    padding-top: 0px;
     padding-bottom: 7px;
+  }
+  .nav-link {
+    padding-top: 41px;
+    padding-bottom: 0px;
+  }
+  .nav-link.w--current {
+    position: relative;
+    text-align: right;
+  }
+  .nav-link.email {
+    top: 142px;
+  }
+  .nav-link.design-men {
+    padding-top: 0px;
+  }
+  .nav-link.illus-men {
+    padding-top: 0px;
+  }
+  .nav-link.contact-men {
+    top: -26px;
+    bottom: 16px;
+    padding-top: 0px;
   }
   .about-caption {
     font-size: 21px;
@@ -508,9 +571,15 @@ html.w-mod-js *[data-ix="display-none-4"] {
     left: 5px;
   }
   .nav-right {
-    margin: -46px -8px -30px 1px;
+    position: fixed;
+    left: 259px;
+    top: 174px;
+    bottom: -6px;
+    margin: -56px -8px 171px 1px;
+    padding-top: 18px;
     padding-right: 0px;
-    padding-bottom: 26px;
+    padding-bottom: 0px;
+    background-color: #4b0c0c;
     font-size: 11px;
     text-align: center;
   }
@@ -527,8 +596,15 @@ html.w-mod-js *[data-ix="display-none-4"] {
   .column-zone {
     left: 4px;
   }
+  .menu-button.w--open {
+    top: 10px;
+    color: #ff7070;
+  }
   .auto-column {
     left: 7px;
+  }
+  .email-text {
+    font-size: 25px;
   }
 }
 
@@ -545,6 +621,8 @@ html.w-mod-js *[data-ix="display-none-4"] {
     width: 327px;
   }
   .brand {
+    top: -17px;
+    bottom: 5px;
     display: inline-block;
     padding-top: 12px;
     padding-bottom: 29px;
@@ -627,6 +705,14 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .menu-button.w--open {
     height: 85px;
+  }
+  .hero-caption {
+    display: none;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .email-text {
+    font-size: 14px;
   }
 }
 
