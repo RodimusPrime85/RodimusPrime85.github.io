@@ -58,8 +58,8 @@ h5 {
 
 .vertical-navbar {
   position: fixed;
-  overflow-x: auto;
-  overflow-y: auto;
+  overflow-x: visible;
+  overflow-y: visible;
   width: 135px;
   height: 1000px;
   float: left;
@@ -170,6 +170,9 @@ h5 {
   padding-top: 90px;
   padding-bottom: 82px;
   background-color: #f7c969;
+  background-image: url('../images/halftone-2.png');
+  background-position: 50% 100%;
+  background-size: contain;
 }
 
 .skill {
@@ -330,7 +333,10 @@ h5 {
 }
 
 .nav-right {
+  left: 7px;
   margin-top: 46px;
+  font-family: Universalfruitcake, Arial, sans-serif;
+  font-size: 10px;
   text-align: right;
 }
 
@@ -347,17 +353,36 @@ h5 {
 
 .hero-caption {
   width: 402px;
-  height: 179px;
-  margin-top: 84px;
-  margin-right: 118px;
-  margin-left: -475px;
-  padding: 0px 22px 16px 14px;
+  height: 178px;
+  margin: -1px 118px 13px 79px;
+  padding: 0px 22px 30px 14px;
   border: 6px solid black;
   background-color: white;
   font-family: Universalfruitcake, Arial, sans-serif;
   color: #4b0c0c;
   font-size: 21px;
   line-height: 24px;
+}
+
+.hero-caption.design-caption {
+  width: 494px;
+  height: 61px;
+  margin-top: -14px;
+  margin-right: 119px;
+  margin-bottom: 29px;
+  padding: 13px 14px 37px 13px;
+}
+
+.hero-caption.hero-space {
+  width: 529px;
+  height: 213px;
+  margin-top: 129px;
+  margin-bottom: 21px;
+  margin-left: -134px;
+  padding-top: 21px;
+  padding-bottom: 10px;
+  font-size: 27px;
+  line-height: 32px;
 }
 
 .email-text {
@@ -455,11 +480,11 @@ html.w-mod-js *[data-ix="display-none-4"] {
     margin-left: -26px;
   }
   .zone-img.zone-logo.hot {
-    margin-left: -36px;
+    margin-left: 16px;
     padding-left: 0px;
   }
   .camp-img {
-    margin-left: -59px;
+    margin-left: -41px;
     padding-top: 25px;
     padding-left: 0px;
   }
@@ -483,6 +508,10 @@ html.w-mod-js *[data-ix="display-none-4"] {
     margin-top: 170px;
     margin-bottom: 1px;
     margin-left: -191px;
+  }
+  .hero-caption.hero-space {
+    margin-top: 151px;
+    margin-left: -77px;
   }
   .email-text {
     margin-left: 3px;
@@ -603,6 +632,9 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .auto-column {
     left: 7px;
+  }
+  .hero-caption.hero-space {
+    display: none;
   }
   .email-text {
     font-size: 25px;
