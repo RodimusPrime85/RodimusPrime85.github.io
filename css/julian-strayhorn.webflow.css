@@ -496,8 +496,8 @@ html.w-mod-js *[data-ix="display-none-4"] {
     background-size: cover;
   }
   .vertical-navbar {
-    overflow-x: visible;
-    overflow-y: visible;
+    overflow-x: auto;
+    overflow-y: auto;
     width: 572px;
   }
   .brand {
@@ -619,6 +619,8 @@ html.w-mod-js *[data-ix="display-none-4"] {
     transform: scale(1);
   }
   .vertical-navbar {
+    overflow-x: auto;
+    overflow-y: auto;
     width: 327px;
   }
   .brand {
