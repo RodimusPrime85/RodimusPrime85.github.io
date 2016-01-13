@@ -175,6 +175,7 @@ h5 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  align-content: center;
 }
 
 .skill {
