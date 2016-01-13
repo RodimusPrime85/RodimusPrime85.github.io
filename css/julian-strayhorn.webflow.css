@@ -171,8 +171,10 @@ h5 {
   padding-bottom: 82px;
   background-color: #f7c969;
   background-image: url('../images/halftone-2.png');
-  background-position: 50% 100%;
-  background-size: contain;
+  background-position: 118px 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .skill {
