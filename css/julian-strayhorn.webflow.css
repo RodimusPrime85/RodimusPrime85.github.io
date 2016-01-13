@@ -585,6 +585,10 @@ html.w-mod-js *[data-ix="display-none-4"] {
     padding-right: 96px;
     padding-left: 49px;
   }
+  .illustration-design {
+    background-position: 100% 50%;
+    background-size: cover;
+  }
   .zone-img {
     left: 81px;
     margin-left: 35px;
