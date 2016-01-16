@@ -97,6 +97,10 @@ h5 {
   top: 178px;
 }
 
+.nav-link.illus-men {
+  margin-bottom: 2px;
+}
+
 .section {
   margin-top: 0px;
   padding-top: 80px;
@@ -135,6 +139,8 @@ h5 {
 
 .row {
   margin-top: 31px;
+  margin-right: -15px;
+  padding-left: 89px;
 }
 
 .about {
@@ -148,11 +154,13 @@ h5 {
 
 .about-caption {
   margin-top: -20px;
+  margin-left: 152px;
   padding-top: 3px;
   padding-bottom: 25px;
   font-family: Universalfruitcake, Arial, sans-serif;
   color: #fff8f8;
   font-size: 26px;
+  line-height: 46px;
   font-style: normal;
   font-weight: 400;
 }
@@ -165,17 +173,17 @@ h5 {
   color: #4b0c0c;
 }
 
+.about-caption.illustration.hero-caption {
+  position: relative;
+  width: 496px;
+  margin-left: 577px;
+}
+
 .illustration-design {
   margin-bottom: 0px;
   padding-top: 90px;
   padding-bottom: 82px;
   background-color: #f7c969;
-  background-image: url('../images/halftone-2.png');
-  background-position: 118px 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  align-content: center;
 }
 
 .skill {
@@ -336,7 +344,6 @@ h5 {
 }
 
 .nav-right {
-  left: 7px;
   margin-top: 46px;
   font-family: Universalfruitcake, Arial, sans-serif;
   font-size: 10px;
@@ -354,11 +361,12 @@ h5 {
   padding-top: 0px;
 }
 
-.hero-caption {
-  width: 402px;
-  height: 178px;
-  margin: -1px 118px 13px 79px;
-  padding: 0px 22px 30px 14px;
+.julian-caption {
+  position: relative;
+  width: 389px;
+  height: 52px;
+  margin: -78px 118px 13px 79px;
+  padding: 8px 22px 30px 13px;
   border: 6px solid black;
   background-color: white;
   font-family: Universalfruitcake, Arial, sans-serif;
@@ -367,34 +375,34 @@ h5 {
   line-height: 24px;
 }
 
-.hero-caption.design-caption {
-  width: 494px;
-  height: 61px;
-  margin-top: -14px;
-  margin-right: 119px;
-  margin-bottom: 29px;
-  padding: 13px 14px 37px 13px;
-}
-
-.hero-caption.hero-space {
-  width: 529px;
-  height: 213px;
-  margin-top: 129px;
-  margin-bottom: 21px;
-  margin-left: -134px;
-  padding-top: 21px;
-  padding-bottom: 10px;
-  font-size: 27px;
-  line-height: 32px;
+.julian-caption.hero-fixed {
+  margin-top: 100px;
 }
 
 .email-text {
+  position: relative;
   margin-left: -66px;
   background-color: #fff8c2;
   font-family: Universalfruitcake, Arial, sans-serif;
   color: #ff6161;
   font-size: 56px;
   text-decoration: none;
+}
+
+.skill-row {
+  padding-left: 80px;
+}
+
+.caption {
+  margin-top: 89px;
+  margin-right: 224px;
+  padding: 0px 27px 29px;
+  border: 6px solid #4b0c0c;
+  background-color: white;
+  font-family: Universalfruitcake, Arial, sans-serif;
+  color: #4b0c0c;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 html.w-mod-js *[data-ix="display-none"] {
@@ -449,6 +457,26 @@ html.w-mod-js *[data-ix="display-none-4"] {
     color: #ffe6e6;
     font-size: 62px;
   }
+  .row {
+    padding-left: 31px;
+  }
+  .about-caption {
+    margin-left: 6px;
+    line-height: 34px;
+  }
+  .about-caption.illustration.hero-caption {
+    margin-top: 123px;
+    margin-bottom: 24px;
+    margin-left: 164px;
+    padding-top: 23px;
+    padding-bottom: 38px;
+  }
+  .about-caption.illustration.hero-caption.illustration-fixed {
+    height: 56px;
+  }
+  .about-caption.illustration.hero-caption.illustration-fixed.julian-caption {
+    margin-top: 18px;
+  }
   .hidden-12days {
     margin-left: -150px;
     padding-right: 90px;
@@ -483,11 +511,11 @@ html.w-mod-js *[data-ix="display-none-4"] {
     margin-left: -26px;
   }
   .zone-img.zone-logo.hot {
-    margin-left: 16px;
+    margin-left: -36px;
     padding-left: 0px;
   }
   .camp-img {
-    margin-left: -41px;
+    margin-left: -59px;
     padding-top: 25px;
     padding-left: 0px;
   }
@@ -507,18 +535,28 @@ html.w-mod-js *[data-ix="display-none-4"] {
   .contact-footer {
     font-size: 44px;
   }
-  .hero-caption {
-    margin-top: 170px;
-    margin-bottom: 1px;
-    margin-left: -191px;
+  .julian-caption {
+    height: 189px;
+    margin-top: 244px;
+    margin-bottom: 36px;
+    margin-left: 90px;
   }
-  .hero-caption.hero-space {
-    margin-top: 151px;
-    margin-left: -77px;
+  .julian-caption.hero-fixed {
+    margin-left: -90px;
+  }
+  .julian-caption.design-fixed {
+    height: 47px;
+    margin-top: -36px;
   }
   .email-text {
     margin-left: 3px;
     font-size: 35px;
+  }
+  .skill-row {
+    padding-left: 32px;
+  }
+  .caption {
+    margin-top: 194px;
   }
 }
 
@@ -528,8 +566,8 @@ html.w-mod-js *[data-ix="display-none-4"] {
     background-size: cover;
   }
   .vertical-navbar {
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow-x: visible;
+    overflow-y: visible;
     width: 572px;
   }
   .brand {
@@ -541,7 +579,9 @@ html.w-mod-js *[data-ix="display-none-4"] {
     padding-bottom: 7px;
   }
   .nav-link {
-    padding-top: 41px;
+    top: -24px;
+    margin-top: 19px;
+    padding-top: 0px;
     padding-bottom: 0px;
   }
   .nav-link.w--current {
@@ -559,11 +599,28 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .nav-link.contact-men {
     top: -26px;
-    bottom: 16px;
+    bottom: 43px;
+    margin-top: 21px;
     padding-top: 0px;
+    padding-bottom: 14px;
+  }
+  .row {
+    margin-right: 8px;
+    margin-left: 6px;
+    padding-right: 20px;
+    padding-left: 0px;
   }
   .about-caption {
+    margin-left: 3px;
     font-size: 21px;
+  }
+  .about-caption.illustration.hero-caption.illustration-fixed {
+    margin-top: -77px;
+    margin-left: 38px;
+    padding-left: 14px;
+  }
+  .about-caption.illustration.hero-caption.illustration-fixed.julian-caption {
+    padding-bottom: 50px;
   }
   .hidden-12days {
     margin-left: -201px;
@@ -585,10 +642,6 @@ html.w-mod-js *[data-ix="display-none-4"] {
   .hidden-auto {
     padding-right: 96px;
     padding-left: 49px;
-  }
-  .illustration-design {
-    background-position: 100% 50%;
-    background-size: cover;
   }
   .zone-img {
     left: 81px;
@@ -612,7 +665,7 @@ html.w-mod-js *[data-ix="display-none-4"] {
     left: 259px;
     top: 174px;
     bottom: -6px;
-    margin: -56px -8px 171px 1px;
+    margin: -56px -8px 373px 1px;
     padding-top: 18px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -640,11 +693,24 @@ html.w-mod-js *[data-ix="display-none-4"] {
   .auto-column {
     left: 7px;
   }
-  .hero-caption.hero-space {
+  .julian-caption.hero-fixed {
     display: none;
   }
   .email-text {
     font-size: 25px;
+  }
+  .skill-row {
+    padding-right: 27px;
+    padding-left: 0px;
+  }
+  .caption {
+    display: inline-block;
+    width: 269px;
+    height: 267px;
+    margin-top: 344px;
+    margin-right: 423px;
+    margin-left: 286px;
+    padding-top: 0px;
   }
 }
 
@@ -669,11 +735,36 @@ html.w-mod-js *[data-ix="display-none-4"] {
     padding-top: 12px;
     padding-bottom: 29px;
   }
+  .nav-link {
+    margin-top: 15px;
+    padding-top: 0px;
+  }
+  .nav-link.email {
+    margin-top: -129px;
+  }
+  .nav-link.contact-men {
+    margin-top: 26px;
+  }
   .icon {
     padding-top: 14px;
   }
   .about-caption {
-    font-size: 21px;
+    margin-left: -19px;
+    padding-right: 23px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+  .about-caption.illustration.hero-caption.illustration-fixed.julian-caption {
+    display: inline-block;
+    width: 275px;
+    height: 74px;
+    margin-top: -87px;
+    margin-right: 127px;
+    margin-left: 21px;
+    padding-top: 1px;
+    padding-right: 37px;
+    padding-left: 25px;
+    line-height: 29px;
   }
   .hidden-12days {
     margin-left: -244px;
@@ -718,13 +809,15 @@ html.w-mod-js *[data-ix="display-none-4"] {
   }
   .nav-right {
     position: fixed;
-    top: 120px;
+    top: 165px;
     display: inline;
     width: 345px;
     height: 340px;
     margin-bottom: -1px;
-    padding-top: 30px;
+    margin-left: -277px;
+    padding-top: 29px;
     padding-bottom: 1px;
+    padding-left: 74px;
     background-color: #4b0c0c;
     font-size: 15px;
   }
@@ -741,20 +834,43 @@ html.w-mod-js *[data-ix="display-none-4"] {
     padding-left: 30px;
   }
   .menu-button {
+    left: 40px;
     height: auto;
     background-color: #ff3838;
     color: #4c6270;
   }
   .menu-button.w--open {
+    left: 49px;
+    top: 12px;
     height: 85px;
   }
-  .hero-caption {
+  .julian-caption {
     display: none;
     overflow-x: visible;
     overflow-y: visible;
   }
+  .julian-caption.design-fixed {
+    right: 75px;
+    display: inline-block;
+    width: 252px;
+    height: 77px;
+    margin-right: -214px;
+    margin-left: -57px;
+    line-height: 28px;
+  }
   .email-text {
     font-size: 14px;
+  }
+  .hero-area {
+    position: fixed;
+  }
+  .caption {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 6px;
+    padding-top: 9px;
+    padding-bottom: 42px;
+    font-size: 19px;
   }
 }
 
