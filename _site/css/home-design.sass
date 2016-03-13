@@ -1,0 +1,72 @@
+section.design
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #dd7044  30%, #dd7044  40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #dd7044  15%, #dd7044  20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #dd7044  15%, #dd7044  20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #dd7044  15%, #dd7044  20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #dd7044  15%, #dd7044  20%, transparent 50%), linear-gradient(-35deg, #eba258 0%, #eba258 30%, #eba258  50%, #eba258  70%, #eba258  100%)
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%
+
+  h4
+     color: $maroon
+     font:
+       size: 24px
+       weight: 400
+     background-color: $white
+     border: 3px solid $black
+     box-shadow: 5px 5px 0 $black
+     border-radius: 3px 0
+     display: inline-block
+     text-align: center
+     line-height: 1
+     padding: 10px
+     width: auto
+     position: center
+     margin-left: 160px
+     margin-top: -160px
+
+  ul
+    list-style: none
+    margin: 0 auto
+    padding: 0
+    display: block
+    max-width: 780px
+    text-align: center
+    li
+      display: inline-block
+      padding: 8px
+      background: white
+      margin: 10px
+      transition: all .2s ease-in-out
+
+  .borderedImg
+    border: 10px solid rgba(0, 0, 0, 0.7)
+
+  ul li img
+    display: block
+
+  a
+    text-decoration: none
+
+  /** Start Coding Here *
+
+  #overlay
+    background: rgba(0, 0, 0, 0.7)
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    display: none
+    text-align: center
+    img
+      margin-top: 10%
+    p
+      color: white
+
+  img#thumb
+    width: 200px
+    &:hover
+      z-index: 15
+
+  #imageGallery li:hover
+    transform: scale(1.2)
+    z-index: 10
+
+.behance
+  color: #1769ff
